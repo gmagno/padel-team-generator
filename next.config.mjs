@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'export',
   // Configure the base path for GitHub Pages deployment
   // This should match the repository name
-  basePath: process.env.GITHUB_ACTIONS ? '/padel' : '',
+  basePath: process.env.GITHUB_ACTIONS ? '/padel-team-generator' : '',
   // Disable image optimization since it's not supported in static exports
   images: {
     unoptimized: true,
