@@ -269,7 +269,7 @@ export default function Home() {
   return (
     <div className="min-h-screen p-8 flex flex-col items-center">
       <div className="flex flex-col items-center mb-6">
-        <img src="/padel-logo.svg" alt="Padel Logo" className="w-24 h-24 mb-4" />
+        <img src="./padel-logo.svg" alt="Padel Logo" className="w-24 h-24 mb-4" />
         <h1 className="text-3xl font-bold">Padel Team Generator</h1>
       </div>
 
