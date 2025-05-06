@@ -268,7 +268,10 @@ export default function Home() {
 
   return (
     <div className="min-h-screen p-8 flex flex-col items-center">
-      <h1 className="text-3xl font-bold mb-8">Padel Team Generator</h1>
+      <div className="flex flex-col items-center mb-6">
+        <img src="/padel-logo.svg" alt="Padel Logo" className="w-24 h-24 mb-4" />
+        <h1 className="text-3xl font-bold">Padel Team Generator</h1>
+      </div>
 
       <div className="w-full max-w-2xl flex flex-col gap-6">
         {/* Player input section */}
@@ -328,6 +331,13 @@ Sam Wilson`}
               type="button"
             >
               16 Players
+            </button>
+            <button
+              onClick={() => generateSamplePlayers(32)}
+              className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-1 px-3 rounded-md text-sm transition-colors"
+              type="button"
+            >
+              32 Players
             </button>
           </div>
         </div>

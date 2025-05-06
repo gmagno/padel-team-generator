@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="90" fill="#1E88E5" stroke="none"/>
+  <circle cx="100" cy="100" r="85" fill="#2196F3" stroke="none"/>
+  
+  <!-- Left Racket -->
+  <g transform="translate(55, 60) rotate(-20) scale(0.85)">
+    <!-- Racket head -->
+    <rect x="0" y="0" width="50" height="90" rx="25" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+    
+    <!-- Racket strings - horizontal -->
+    <line x1="5" y1="15" x2="45" y2="15" stroke="#333333" stroke-width="0.8"/>
+    <line x1="5" y1="30" x2="45" y2="30" stroke="#333333" stroke-width="0.8"/>
+    <line x1="5" y1="45" x2="45" y2="45" stroke="#333333" stroke-width="0.8"/>
+    <line x1="5" y1="60" x2="45" y2="60" stroke="#333333" stroke-width="0.8"/>
+    <line x1="5" y1="75" x2="45" y2="75" stroke="#333333" stroke-width="0.8"/>
+    
+    <!-- Racket strings - vertical -->
+    <line x1="12.5" y1="5" x2="12.5" y2="85" stroke="#333333" stroke-width="0.8"/>
+    <line x1="25" y1="5" x2="25" y2="85" stroke="#333333" stroke-width="0.8"/>
+    <line x1="37.5" y1="5" x2="37.5" y2="85" stroke="#333333" stroke-width="0.8"/>
+    
+    <!-- Racket handle -->
+    <rect x="20" y="90" width="10" height="35" rx="2" fill="#333333"/>
+    <rect x="18" y="90" width="14" height="5" rx="2" fill="#333333"/>
+  </g>
+  
+  <!-- Right Racket -->
+  <g transform="translate(145, 60) rotate(20) scale(0.85)">
+    <!-- Racket head -->
+    <rect x="0" y="0" width="50" height="90" rx="25" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+    
+    <!-- Racket strings - horizontal -->
+    <line x1="5" y1="15" x2="45" y2="15" stroke="#333333" stroke-width="0.8"/>
+    <line x1="5" y1="30" x2="45" y2="30" stroke="#333333" stroke-width="0.8"/>
+    <line x1="5" y1="45" x2="45" y2="45" stroke="#333333" stroke-width="0.8"/>
+    <line x1="5" y1="60" x2="45" y2="60" stroke="#333333" stroke-width="0.8"/>
+    <line x1="5" y1="75" x2="45" y2="75" stroke="#333333" stroke-width="0.8"/>
+    
+    <!-- Racket strings - vertical -->
+    <line x1="12.5" y1="5" x2="12.5" y2="85" stroke="#333333" stroke-width="0.8"/>
+    <line x1="25" y1="5" x2="25" y2="85" stroke="#333333" stroke-width="0.8"/>
+    <line x1="37.5" y1="5" x2="37.5" y2="85" stroke="#333333" stroke-width="0.8"/>
+    
+    <!-- Racket handle -->
+    <rect x="20" y="90" width="10" height="35" rx="2" fill="#333333"/>
+    <rect x="18" y="90" width="14" height="5" rx="2" fill="#333333"/>
+  </g>
+  
+  <!-- Ball -->
+  <circle cx="100" cy="100" r="15" fill="#FFEB3B" stroke="#333333" stroke-width="1"/>
+  <path d="M92,100 C92,96 96,92 100,92 C104,92 108,96 108,100 C108,104 104,108 100,108 C96,108 92,104 92,100" 
+        fill="none" stroke="#333333" stroke-width="0.8"/>
+  
+  <!-- Text at bottom of circle -->
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PADEL TEAM</text>
+</svg>
